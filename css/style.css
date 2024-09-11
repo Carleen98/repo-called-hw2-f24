@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0;
@@ -26,12 +26,13 @@ body {
   div {
     min-height: 125px;
     padding: 20px;
-    border: 3px solid #FFFFFF;
+    /* border: 3px solid #FFFFFF; */
   }
   .introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
+    border: 3px solid #FFFFFF;
   }
   .red {
     background-color: #FF0000;
@@ -48,6 +49,9 @@ body {
     border-top: 2px solid #FFFFFF;
   }
   .blue h2{
+    color: #C4C4C4;
+  }
+  .blue p {
     color: #C4C4C4;
   }
   .yellow {
